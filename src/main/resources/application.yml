@@ -1,0 +1,12 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      git:
+        uri: https://github.com/bismayamohapatra/SpringCloudConfig
+        username: bismayamohapatra
+        password: India@12345
+  profiles:
+    active: native
