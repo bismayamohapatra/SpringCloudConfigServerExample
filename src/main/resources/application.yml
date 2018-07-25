@@ -7,6 +7,6 @@ spring:
       git:
         uri: https://github.com/bismayamohapatra/SpringCloudConfig
         username: bismayamohapatra
-        password: India@12345
+        password: *****
   profiles:
     active: native
